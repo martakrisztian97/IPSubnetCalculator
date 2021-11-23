@@ -158,7 +158,7 @@ namespace IPSubnetCalculator {
       if (kitevo != 0) {
         ipCimekDb = Math.Pow(2, kitevo)-2;
       }
-      ipCimekDbLabel.Text = ipCimekDb.ToString();
+      ipCimekDbLabel.Text = String.Format("{0:n0} darab", ipCimekDb);
     }
 
     public calculateForm() {
