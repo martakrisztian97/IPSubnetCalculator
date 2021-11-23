@@ -48,6 +48,8 @@ namespace IPSubnetCalculator {
       this.broadcastLabel = new System.Windows.Forms.Label();
       this.terjedelemLabel = new System.Windows.Forms.Label();
       this.label11 = new System.Windows.Forms.Label();
+      this.label10 = new System.Windows.Forms.Label();
+      this.ipCimekDbLabel = new System.Windows.Forms.Label();
       this.SuspendLayout();
       // 
       // oktett1Txt
@@ -139,6 +141,13 @@ namespace IPSubnetCalculator {
       this.cidrComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
       this.cidrComboBox.FormattingEnabled = true;
       this.cidrComboBox.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
             "8",
             "9",
             "10",
@@ -302,11 +311,32 @@ namespace IPSubnetCalculator {
       this.label11.Text = "A hálózat terjedelme:";
       this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
       // 
+      // label10
+      // 
+      this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+      this.label10.Location = new System.Drawing.Point(0, 430);
+      this.label10.Name = "label10";
+      this.label10.Size = new System.Drawing.Size(225, 30);
+      this.label10.TabIndex = 23;
+      this.label10.Text = "Érvényes IP címek:";
+      this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+      // 
+      // ipCimekDbLabel
+      // 
+      this.ipCimekDbLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+      this.ipCimekDbLabel.Location = new System.Drawing.Point(225, 430);
+      this.ipCimekDbLabel.Name = "ipCimekDbLabel";
+      this.ipCimekDbLabel.Size = new System.Drawing.Size(381, 30);
+      this.ipCimekDbLabel.TabIndex = 24;
+      this.ipCimekDbLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+      // 
       // calculateForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(650, 478);
+      this.Controls.Add(this.ipCimekDbLabel);
+      this.Controls.Add(this.label10);
       this.Controls.Add(this.label11);
       this.Controls.Add(this.terjedelemLabel);
       this.Controls.Add(this.broadcastLabel);
@@ -366,6 +396,8 @@ namespace IPSubnetCalculator {
     private System.Windows.Forms.Label broadcastLabel;
     private System.Windows.Forms.Label terjedelemLabel;
     private System.Windows.Forms.Label label11;
+    private System.Windows.Forms.Label label10;
+    private System.Windows.Forms.Label ipCimekDbLabel;
   }
 }
 

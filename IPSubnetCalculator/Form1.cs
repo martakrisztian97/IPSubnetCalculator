@@ -59,13 +59,13 @@ namespace IPSubnetCalculator {
       int cidr = int.Parse(cidrComboBox.SelectedItem.ToString());
       String maszk = "";
       switch (cidr) {
-        /*case 1: maszk = "128.0.0.0"; break;
+        case 1: maszk = "128.0.0.0"; break;
         case 2: maszk = "192.0.0.0"; break;
         case 3: maszk = "224.0.0.0"; break;
         case 4: maszk = "240.0.0.0"; break;
         case 5: maszk = "248.0.0.0"; break;
         case 6: maszk = "252.0.0.0"; break;
-        case 7: maszk = "254.0.0.0"; break;*/
+        case 7: maszk = "254.0.0.0"; break;
         case 8: maszk = "255.0.0.0"; break;
         case 9: maszk = "255.128.0.0"; break;
         case 10: maszk = "255.192.0.0"; break;
