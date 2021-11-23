@@ -149,8 +149,13 @@ namespace IPSubnetCalculator {
         " ― - "+broadC[0]+"."+broadC[1]+"."+broadC[2]+"."+(broadC[3]-1);
 
       // Érvényes IP címek számának meghatározása
-      int hatvany = 32-cidr;
-      double ipCimekDb = Math.Pow(2, hatvany)-2;
+      int kitevo = 32-cidr;
+      double ipCimekDb = 0;
+      if (kitevo == 0) {
+        ipCimekDb = 0;
+      } else {
+        ipCimekDb = Math.Pow(2, kitevo)-2;
+      }
       ipCimekDbLabel.Text = ipCimekDb.ToString();
     }
 
