@@ -132,9 +132,9 @@ namespace IPSubnetCalculator {
       // 
       this.calculateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
       this.calculateBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-      this.calculateBtn.Location = new System.Drawing.Point(350, 110);
+      this.calculateBtn.Location = new System.Drawing.Point(350, 113);
       this.calculateBtn.Name = "calculateBtn";
-      this.calculateBtn.Size = new System.Drawing.Size(100, 30);
+      this.calculateBtn.Size = new System.Drawing.Size(100, 28);
       this.calculateBtn.TabIndex = 5;
       this.calculateBtn.Text = "Számol";
       this.calculateBtn.UseVisualStyleBackColor = true;
@@ -177,7 +177,7 @@ namespace IPSubnetCalculator {
             "30",
             "31",
             "32"});
-      this.cidrComboBox.Location = new System.Drawing.Point(231, 113);
+      this.cidrComboBox.Location = new System.Drawing.Point(230, 113);
       this.cidrComboBox.Name = "cidrComboBox";
       this.cidrComboBox.Size = new System.Drawing.Size(69, 28);
       this.cidrComboBox.TabIndex = 4;
