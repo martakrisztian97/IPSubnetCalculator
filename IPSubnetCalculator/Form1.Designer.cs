@@ -46,7 +46,7 @@ namespace IPSubnetCalculator {
       this.halozatiCimLabel = new System.Windows.Forms.Label();
       this.label9 = new System.Windows.Forms.Label();
       this.broadcastLabel = new System.Windows.Forms.Label();
-      this.terjedelemLabel = new System.Windows.Forms.Label();
+      this.ipCimtartomanyLabel = new System.Windows.Forms.Label();
       this.label11 = new System.Windows.Forms.Label();
       this.label10 = new System.Windows.Forms.Label();
       this.ipCimekDbLabel = new System.Windows.Forms.Label();
@@ -292,14 +292,14 @@ namespace IPSubnetCalculator {
       this.broadcastLabel.TabIndex = 20;
       this.broadcastLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
       // 
-      // terjedelemLabel
+      // ipCimtartomanyLabel
       // 
-      this.terjedelemLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-      this.terjedelemLabel.Location = new System.Drawing.Point(225, 390);
-      this.terjedelemLabel.Name = "terjedelemLabel";
-      this.terjedelemLabel.Size = new System.Drawing.Size(381, 30);
-      this.terjedelemLabel.TabIndex = 21;
-      this.terjedelemLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+      this.ipCimtartomanyLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+      this.ipCimtartomanyLabel.Location = new System.Drawing.Point(225, 390);
+      this.ipCimtartomanyLabel.Name = "ipCimtartomanyLabel";
+      this.ipCimtartomanyLabel.Size = new System.Drawing.Size(381, 30);
+      this.ipCimtartomanyLabel.TabIndex = 21;
+      this.ipCimtartomanyLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
       // 
       // label11
       // 
@@ -308,7 +308,7 @@ namespace IPSubnetCalculator {
       this.label11.Name = "label11";
       this.label11.Size = new System.Drawing.Size(225, 30);
       this.label11.TabIndex = 22;
-      this.label11.Text = "A hálózat terjedelme:";
+      this.label11.Text = "IP-címtartomány:";
       this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
       // 
       // label10
@@ -338,7 +338,7 @@ namespace IPSubnetCalculator {
       this.Controls.Add(this.ipCimekDbLabel);
       this.Controls.Add(this.label10);
       this.Controls.Add(this.label11);
-      this.Controls.Add(this.terjedelemLabel);
+      this.Controls.Add(this.ipCimtartomanyLabel);
       this.Controls.Add(this.broadcastLabel);
       this.Controls.Add(this.label9);
       this.Controls.Add(this.halozatiCimLabel);
@@ -394,7 +394,7 @@ namespace IPSubnetCalculator {
     private System.Windows.Forms.Label halozatiCimLabel;
     private System.Windows.Forms.Label label9;
     private System.Windows.Forms.Label broadcastLabel;
-    private System.Windows.Forms.Label terjedelemLabel;
+    private System.Windows.Forms.Label ipCimtartomanyLabel;
     private System.Windows.Forms.Label label11;
     private System.Windows.Forms.Label label10;
     private System.Windows.Forms.Label ipCimekDbLabel;

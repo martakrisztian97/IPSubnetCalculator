@@ -144,16 +144,18 @@ namespace IPSubnetCalculator {
       int[] broadC = binarisSzamokkal(broadcast);
       broadcastLabel.Text = broadC[0]+"."+broadC[1]+"."+broadC[2]+"."+broadC[3];
 
-      // A hálózat terjedelmének meghatározása
-      terjedelemLabel.Text = halCim[0]+"."+halCim[1]+"."+halCim[2]+"."+(halCim[3]+1)+
-        " ― - "+broadC[0]+"."+broadC[1]+"."+broadC[2]+"."+(broadC[3]-1);
+      // Az IP-címtartomány meghatározása
+      if (cidr == 31 || cidr == 32) {
+        ipCimtartomanyLabel.Text = "―";
+      } else {
+        ipCimtartomanyLabel.Text = halCim[0]+"."+halCim[1]+"."+halCim[2]+"."+(halCim[3]+1)+
+        " - "+broadC[0]+"."+broadC[1]+"."+broadC[2]+"."+(broadC[3]-1);
+      }
 
       // Érvényes IP címek számának meghatározása
       int kitevo = 32-cidr;
       double ipCimekDb = 0;
-      if (kitevo == 0) {
-        ipCimekDb = 0;
-      } else {
+      if (kitevo != 0) {
         ipCimekDb = Math.Pow(2, kitevo)-2;
       }
       ipCimekDbLabel.Text = ipCimekDb.ToString();
