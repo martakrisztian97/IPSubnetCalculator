@@ -98,16 +98,18 @@ namespace IPSubnetCalculator {
       // 
       // label1
       // 
+      this.label1.BackColor = System.Drawing.Color.Transparent;
       this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
       this.label1.Location = new System.Drawing.Point(0, 0);
       this.label1.Name = "label1";
       this.label1.Size = new System.Drawing.Size(646, 50);
       this.label1.TabIndex = 8;
-      this.label1.Text = "Adja meg az IP címet:";
+      this.label1.Text = "Adja meg az IP címet!";
       this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
       // 
       // label2
       // 
+      this.label2.BackColor = System.Drawing.Color.Transparent;
       this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label2.Location = new System.Drawing.Point(0, 190);
       this.label2.Name = "label2";
@@ -118,6 +120,7 @@ namespace IPSubnetCalculator {
       // 
       // binarisIPLabel
       // 
+      this.binarisIPLabel.BackColor = System.Drawing.Color.Transparent;
       this.binarisIPLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.binarisIPLabel.Location = new System.Drawing.Point(225, 190);
       this.binarisIPLabel.Name = "binarisIPLabel";
@@ -127,6 +130,7 @@ namespace IPSubnetCalculator {
       // 
       // calculateBtn
       // 
+      this.calculateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
       this.calculateBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.calculateBtn.Location = new System.Drawing.Point(350, 110);
       this.calculateBtn.Name = "calculateBtn";
@@ -180,6 +184,7 @@ namespace IPSubnetCalculator {
       // 
       // label3
       // 
+      this.label3.BackColor = System.Drawing.Color.Transparent;
       this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label3.Location = new System.Drawing.Point(0, 110);
       this.label3.Name = "label3";
@@ -190,6 +195,7 @@ namespace IPSubnetCalculator {
       // 
       // label4
       // 
+      this.label4.BackColor = System.Drawing.Color.Transparent;
       this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label4.Location = new System.Drawing.Point(0, 230);
       this.label4.Name = "label4";
@@ -200,6 +206,7 @@ namespace IPSubnetCalculator {
       // 
       // maszkLabel
       // 
+      this.maszkLabel.BackColor = System.Drawing.Color.Transparent;
       this.maszkLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.maszkLabel.Location = new System.Drawing.Point(225, 230);
       this.maszkLabel.Name = "maszkLabel";
@@ -209,6 +216,7 @@ namespace IPSubnetCalculator {
       // 
       // label5
       // 
+      this.label5.BackColor = System.Drawing.Color.Transparent;
       this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label5.Location = new System.Drawing.Point(0, 270);
       this.label5.Name = "label5";
@@ -219,6 +227,7 @@ namespace IPSubnetCalculator {
       // 
       // binarisMaszkLabel
       // 
+      this.binarisMaszkLabel.BackColor = System.Drawing.Color.Transparent;
       this.binarisMaszkLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.binarisMaszkLabel.Location = new System.Drawing.Point(225, 270);
       this.binarisMaszkLabel.Name = "binarisMaszkLabel";
@@ -228,6 +237,7 @@ namespace IPSubnetCalculator {
       // 
       // label6
       // 
+      this.label6.BackColor = System.Drawing.Color.Transparent;
       this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label6.Location = new System.Drawing.Point(0, 150);
       this.label6.Name = "label6";
@@ -238,6 +248,7 @@ namespace IPSubnetCalculator {
       // 
       // cimosztalyLabel
       // 
+      this.cimosztalyLabel.BackColor = System.Drawing.Color.Transparent;
       this.cimosztalyLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.cimosztalyLabel.Location = new System.Drawing.Point(225, 150);
       this.cimosztalyLabel.Name = "cimosztalyLabel";
@@ -256,6 +267,7 @@ namespace IPSubnetCalculator {
       // 
       // label8
       // 
+      this.label8.BackColor = System.Drawing.Color.Transparent;
       this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label8.Location = new System.Drawing.Point(0, 310);
       this.label8.Name = "label8";
@@ -266,6 +278,7 @@ namespace IPSubnetCalculator {
       // 
       // halozatiCimLabel
       // 
+      this.halozatiCimLabel.BackColor = System.Drawing.Color.Transparent;
       this.halozatiCimLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.halozatiCimLabel.Location = new System.Drawing.Point(225, 310);
       this.halozatiCimLabel.Name = "halozatiCimLabel";
@@ -275,6 +288,7 @@ namespace IPSubnetCalculator {
       // 
       // label9
       // 
+      this.label9.BackColor = System.Drawing.Color.Transparent;
       this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label9.Location = new System.Drawing.Point(0, 350);
       this.label9.Name = "label9";
@@ -285,6 +299,7 @@ namespace IPSubnetCalculator {
       // 
       // broadcastLabel
       // 
+      this.broadcastLabel.BackColor = System.Drawing.Color.Transparent;
       this.broadcastLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.broadcastLabel.Location = new System.Drawing.Point(225, 350);
       this.broadcastLabel.Name = "broadcastLabel";
@@ -294,6 +309,7 @@ namespace IPSubnetCalculator {
       // 
       // ipCimtartomanyLabel
       // 
+      this.ipCimtartomanyLabel.BackColor = System.Drawing.Color.Transparent;
       this.ipCimtartomanyLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.ipCimtartomanyLabel.Location = new System.Drawing.Point(225, 390);
       this.ipCimtartomanyLabel.Name = "ipCimtartomanyLabel";
@@ -303,6 +319,7 @@ namespace IPSubnetCalculator {
       // 
       // label11
       // 
+      this.label11.BackColor = System.Drawing.Color.Transparent;
       this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label11.Location = new System.Drawing.Point(0, 390);
       this.label11.Name = "label11";
@@ -313,6 +330,7 @@ namespace IPSubnetCalculator {
       // 
       // label10
       // 
+      this.label10.BackColor = System.Drawing.Color.Transparent;
       this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.label10.Location = new System.Drawing.Point(0, 430);
       this.label10.Name = "label10";
@@ -323,6 +341,7 @@ namespace IPSubnetCalculator {
       // 
       // ipCimekDbLabel
       // 
+      this.ipCimekDbLabel.BackColor = System.Drawing.Color.Transparent;
       this.ipCimekDbLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
       this.ipCimekDbLabel.Location = new System.Drawing.Point(225, 430);
       this.ipCimekDbLabel.Name = "ipCimekDbLabel";
@@ -334,6 +353,7 @@ namespace IPSubnetCalculator {
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+      this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
       this.ClientSize = new System.Drawing.Size(650, 478);
       this.Controls.Add(this.ipCimekDbLabel);
       this.Controls.Add(this.label10);
